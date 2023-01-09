@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: black;
+}
+li{
+    color: white;
+}
+nav{
+    padding: auto;
+    padding-top: 40px;
+}
+ul, li, .toolbar{
+    display: flex;
+    gap: 3cm;
+    min-height: 30px;
+    
+}
+nav{
+    position: relative;
+    top: -.3cm;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    max-height: 2px;
+}
+a{
+    text-decoration: none;
+}
+.toolbar{
+    padding-left: 7cm;
+}
+li:hover{
+    color: aquamarine;
+    transition: 1s ease;
+}
